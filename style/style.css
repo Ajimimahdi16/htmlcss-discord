@@ -9,8 +9,16 @@
 
 /* NAVBAR */
 .container {
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-image: url(../img/jumbo.png);
+  color: white;
+  height: 800px;
+  background-repeat: no-repeat;
 }
 
 .barnav {
@@ -21,7 +29,7 @@
 }
 
 /*logo*/
-.navlogo img {
+.img {
   height: 30px;
 }
 
@@ -36,7 +44,6 @@
 .navlink a {
   text-decoration: none;
   color: white;
-  font-weight: 500;
   font-size: 14px;
 }
 
@@ -51,13 +58,6 @@
  
 }
 
-/* HEADER */
-header {
-  background-image: url(../img/jumbo.png);
-  color: white;
-  height: 800px;
-  background-repeat: no-repeat;
-}
 
 /*contenitore centrale dove ce il testo*/
 
@@ -75,7 +75,6 @@ header {
 
  h1 {
   font-size: 48px;
-  font-weight: 800;
   margin-bottom: 20px;
 }
 
@@ -83,7 +82,6 @@ header {
 
  p {
   font-size: 18px;
-  line-height: 1.6;
   margin-bottom: 40px;
 }
 
@@ -100,7 +98,7 @@ header {
   border-radius: 28px;
   border: none;
   font-size: 16px;
-  font-weight: 600;
+  
 }
 
 .btn.white {
@@ -133,7 +131,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 1200px;
+  max-width: 1080px;
   margin: 0 auto;
   gap: 60px;
   padding: 0 40px;
@@ -174,4 +172,144 @@ header {
   font-size: 18px;
   color: #23272a;
   
+}
+
+
+/*sezione verde*/
+
+.section-contact {
+  background-color: white;      
+  text-align: center;           
+  padding: 80px 20px;           
+}
+
+.section-contact h2 {
+  font-size: 28px;
+  color: #23272a;               
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section-contact p {
+  color: #555;
+  font-size: 16px;
+  max-width: 650px;
+  margin: 0 auto 40px auto;     
+}
+
+.section-contact img {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.section-contact h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  background-color: #5865f2;    
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  font-size: 16px;
+  
+}
+
+.btn-download {
+  background-color: #4752c4;    
+}
+
+
+
+
+
+
+
+
+
+/*fottor finale*/
+
+.footer {
+  background-color: #23272a;
+  color: white;
+  padding: 50px 80px;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+.footer-brand h3 {
+  color: #5865f2; 
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.lang {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 8px;
+}
+
+
+
+
+.footer-column h4 {
+  color: #5865f2;
+  margin-bottom: 10px;
+  
+}
+
+.footer-column ul {
+  list-style: none;
+  
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* ========== FOOTER END ========== */
+.container-end {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  width: 1015px;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #9a9bd9;
+  color: white;
+  border: none;
+  padding: 9px 10px;
+  border-radius: 40px;
+  margin-top: 25px;
+  
+}
+
+#footer-logo{
+  margin-top: 20px;
 }
